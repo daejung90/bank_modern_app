@@ -26,7 +26,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 const Business = () => {
   return (
     <section id='features' className={layout.section}>
-      <div className={layout.sectionInfo}>
+      <div className={`${layout.sectionInfo} sm:px-16`}>
         <h2 className={styles.heading2}>
           You do the business, <br className='sm:block hidden' /> we'll handle
           the money.
